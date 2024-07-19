@@ -91,9 +91,9 @@ function changeDuration() {
     let newDuration = prompt('Enter duration');
 
     duration = parseInt(newDuration);
-    durationText.innerHTML = duration
+    durationText.innerHTML = duration;
     
-    recalculate()
+    recalculate();
 }
 
 durationButton.addEventListener("click", changeDuration);
